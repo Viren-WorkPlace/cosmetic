@@ -207,3 +207,41 @@
       </div>
 
     </section>
+
+
+
+
+        <!-- ======= Values Section ======= -->
+    <!-- <hr style="border-top: 1px solid black;"> -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+        <div class="" data-aos="fade-up" data-aos-delay="400" style="color: #9D5A4D;">
+          <h1 style="text-align: center; margin-right: 4%; margin-top: 8%; font-size: 49px;font-family: 'Montserrat';"><b>What Are You Waiting For ? </b></h1>
+          <h1 style="text-align: center; margin-right: 4%;font-family: 'Montserrat';"><b> You Deserve Our Services </b></h1>
+
+          <div>
+            <img src="assets/img/spa1.PNG" class="img-fluid" alt="" data-aos="fade-left" data-aos-duration="1000" style = "margin-left: -8%;
+            margin-top: -16%;
+            height: 300px;">
+          </div>
+
+
+          <div><img src="assets/img/spa2.PNG" class="img-fluid" alt="" data-aos="fade-bottom" data-aos-duration="1100" style = "margin-left: 32%;
+            height: 400px;"></div>
+
+          <div><img src="assets/img/spa3.PNG" class="img-fluid" alt="" data-aos="fade-right" data-aos-duration="1200" style = " margin-left: 82%; margin-top: -87%;
+            height: 300px;"></div>
+
+          <div><img src="assets/img/spa5.jpg" class="img-fluid" alt="" data-aos="fade-bottom" data-aos-duration="1300"style = "margin-left: -8%;
+            margin-top: -35%; width: 35%;
+            height: 300px;"></div>
+
+          <div><img src="assets/img/spa6.jpg" class="img-fluid" alt="" data-aos="fade-right" data-aos-duration="1400"
+          style = " margin-left: 77%; margin-top: -36%;
+            height: 300px;"></div>
+        </div>
+      </div>
+      
+
+    </section><!-- End Values Section -->

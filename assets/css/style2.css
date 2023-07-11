@@ -12,11 +12,10 @@
 
     .refill-card {
         margin-bottom: 20px;
-        height: 97%;
+        height: 250px;
         border-radius: 20px;
-        width: 26%;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-        background-color: whitesmoke;
+        width: 29%;
+        border: 1px solid black;
         color: black;
       }
     .card-body {
@@ -85,24 +84,48 @@
     }
 
     .refill-card-1 {
-        margin-left: -6%;
+        margin-left: 14%;
     }
 
     .refill-card-2 {
-        margin-left: 22%;
-        margin-top: -10%;
+        margin-left: 51%;
+        margin-top: -16.7rem;
     }
 
     .refill-card-3 {
-        margin-left: 50%;
-        margin-top: -22%;
+        margin-left: 14%;
+        margin-top: 6%;
     }
     .refill-card-4 {
-        margin-left: 78%;
-        margin-top: -10%;   
+        margin-left: 51%;
+        margin-top: -21%;   
     }
 
     button:hover{
         transform: scale(1.1);
 
+    }
+
+    .service-card-1{
+        margin-left: -5%;
+    }
+
+    .service-card-2{
+        margin-left: 37%;
+        margin-top: -21%;
+    }
+
+    .service-card-3{
+        margin-left: 78%;
+        margin-top: -45%;
+    }
+
+    .service-card-4{
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .service-card-5{
+        margin-left: 58%;
+        margin-top: -16.8rem;
     }
