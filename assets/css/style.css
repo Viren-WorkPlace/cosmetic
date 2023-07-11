@@ -53,6 +53,7 @@ section  {
   padding: 60px 0;
   overflow: hidden;
 }
+
 .section-header {
   text-align: center;
   padding-bottom: 40px;
@@ -91,6 +92,10 @@ section  {
   }
   section{
     height: 1600px;
+  }
+  #breadcrumbs{
+    height: 105px;
+    margin-top: 21%;
   }
 }
 
@@ -572,6 +577,10 @@ section  {
   }
   .row .d-flex2{
     margin-top: 26%;
+  }
+
+  .row .inner{
+    margin-top: 97%;
   }
 
 }
