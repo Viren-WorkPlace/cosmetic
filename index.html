@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ruju Mehta Beauty Studio</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/welcome.png" rel="icon">
+  <link href="assets/img/welcome.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!-- Template Main CSS File -->
+
+  <script id='setmore_script' type='text/javascript' src='https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js'></script>
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<script src="https://kit.fontawesome.com/927dfd8ca1.js" crossorigin="anonymous"></script>
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init("Po2MsSTFunWphku-_");
+})();
+</script>
+
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.12.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+    .image-container {
+  position: relative;
+}
+.card {
+    margin-bottom: 20px;
+    height: 420px;
+    width: 97%;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); Adjust the color and transparency as needed */
+}
+
+.image-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.d-flex2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.mySwiper1 {
+      width: 100%;
+      height: 37%;
+    }
+
+    .mySwiper2 {
+      width: 50%;
+      height: 80%;
+      margin-left: 24%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #FAF8F4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 50%;
+      object-fit: cover;
+    }
+    .swiper-slide p {
+  white-space: pre-line;
+  }
+  .slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 6%;
+  height: 100%;
+  color: #000;;
+  text-align: center;
+}
+
+.slide-content h2{
+  color: #000;
+}
+
+
+/* .mySwiper2 {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    } */
+
+    .slide-content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 6%;
+  
+  height: 100%;
+  color: #000;;
+  text-align: center;
+}
+
+    .swiper-slide2 {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+
+    .swiper-slide2 img {
+      display: block;
+      width: 100%;
+    }
+
+    .pyramid-container {
+  position: relative;
+}
+
+.pyramid-text {
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}
+
+.box{
+  background-color: #9d5A4d; 
+  border-radius: 5px; 
+  border: 1px solid #9d5A4d; 
+  color: white; 
+  padding: 10px;
+     margin-top: 3%;
+}
+.box2{
+  background-color: #9d5A4d; 
+  border-radius: 5px; 
+  border: 1px solid #9d5A4d; 
+  color: white; 
+  padding: 10px;
+  width: 174%;
+   margin-left: 12%;
+    margin-right: 12%;
+}
+
+.category-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-heading {
+    margin: 0 10px;
+    color: #9D5A4D;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #9D5A4D;
+    font-size: 36px;
+  }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top" style = "background-color: white;">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/welcome.png" alt="">
+        <span>Ruju Mehta Beauty 
+          Studio
+        </span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">New Services</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+        
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container"  data-aos="fade-up">
+      <div class="row">
+        <div class="d-flex2 flex-column justify-content-center">
+          <h1 style = "font-family: 'Montserrat';">Unleash Your Natural Beauty</h1><br><br>
+          <h5>At Ruju Mehta Beauty Studio, we empower your natural beauty through<br> our organic cosmetic products. 
+            Our mission as a brand is to<br> use these carefully crafted products to enhance your unique<br> features, 
+            allowing your beauty to shine. Join our community,<br> embrace your unique authenticity, and showcase your innate<br> beauty with pride.</h5><br>
+          
+            <div class="text-center text-lg-start">
+              <a id="Setmore_button_iframe" href="https://booking.setmore.com/scheduleappointment/807d67e5-b30a-4429-b0df-e453126787d4">
+                <button style="background: #9D5A4D; padding: 5px 50px; border-radius: 4px; color: #fff;">
+                  Book Now
+                </button>
+              </a>
+            </div>
+       
+        </div>
+        <div class="hero-img position-relative" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/bg2.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <br>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <div style="display: flex; flex-direction: row; align-items: center;">
+        <div style="flex: 0 0 auto; margin-left: -17%;">
+          <img src="assets/img/design.png" alt="About Image" style="height: 227px;">
+        </div>
+        <div style="flex: 1 1 auto;">
+          <h1 style="font-family: 'Montserrat'; color: #9D5A4D; text-align: center;"><b>Discover the Art of Self-Care with our Beauty Services</b></h1>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+     <!-- ======= About Section ======= -->
+     <section id="about" class="about" >
+      <!-- <img src="assets/img/about.jpg" alt="About Image"> -->
+      <div class="container" data-aos="fade-up" style = "margin-top: -15%;">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <div class="image-container">
+              <img src="assets/img/eye_lash1.jpg" class="img-fluid" alt=""/><br><br>
+              <a id="Setmore_button_iframe" href="https://booking.setmore.com/scheduleappointment/807d67e5-b30a-4429-b0df-e453126787d4">
+                <button style="background: #9D5A4D; padding: 5px 50px; border-radius: 4px; color: #fff;">
+                  Book Now
+                </button>
+              </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="inner-page.html">
+                <button style="background: #9D5A4D; padding: 5px 50px; border-radius: 4px; color: #fff;">
+                  Learn More
+                </button>
+              </a>
+              
+            </div>
+            
+          </div>
+
+          <!-- <div class="text-center"> -->
+            
+          <!-- </div> -->
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center eye" data-aos="fade-up" data-aos-delay="200" >
+            <div class="content" style = "background-color: transparent; flex-shrink: 0;">
+              <div class = "service" style = "margin-top: 25%; margin-left: 13%;">
+                <div style="display: flex; align-items: center;">
+                  <h6 style=" color: #9D5A4D; font-family: 'Montserrat';"><b>SERVICES</b></h6>
+                  <!-- <h6 style="font-family: 'Montserrat';"><b></b></h6> -->
+                </div>
+                <div style="display: flex; align-items: center;">
+                  <h1 style="font-size: 44px; color: #9D5A4D; font-family: 'Montserrat';"><b>Eye Lashes Treatment</b></h1>
+                  <!-- <h1 style="font-size: 44px; font-family: 'Montserrat';"><b></b></h1> -->
+                </div>
+              </div>
+              <hr style="border-top: 1px solid black; margin-left: 9%;">
+              <br>
+              <!-- <h6>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h6><br> -->
+              <p style="margin-left: 13%; font-size: 20px;">
+                Discover the captivating allure of your eyes with our organic lash services at Ruju Mehta Beauty Studio. Our expertly applied lashes beautifully complement your natural beauty, allowing your radiance to shine while embracing authenticity and showcasing your innate allure with confidence.
+              </p><br>
+              <div class="swiper-container mySwiper1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="slide-content">
+                      <h1>Eye Lashes</h1><br>
+                      <div class="box2">
+                        Some of our services are:
+                        <ul>
+                          <li>Classis</li>
+                          <li>Volume</li>
+                          <li>Mega Volume</li>
+                          <li>Speciality</li>
+                          <li>Brow Lamination</li>
+                        </ul>
+                         
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-content">
+                      <h1>Refills</h1><br>
+                      <div class="box2">
+                        Some of our services are:
+                        <ul>
+                          <li>Classis</li>
+                          <li>Volume</li>
+                          <li>Mega Volume</li>
+                          <li>Hybrid</li>
+                        </ul>
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div><br>
+                <div class="swiper-pagination"></div>
+              </div><br><br><br><br>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+
+    </section><!-- End About Section -->
+<br><br>
+
+
+<br><br><br>
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="display: flex; flex-direction: row; align-items: center;">
+    <div style="flex: 0 0 auto; margin-left: -77%;">
+      <img src="assets/img/design.png" alt="About Image" style="height: 227px;">
+    </div>
+    <div style="flex: 1 1 auto; margin-left: 50%;">
+      <h1 style="font-family: 'Montserrat'; color: #9D5A4D; text-align: center;"><b>Want More ?</b></h1>
+      <h5 style="text-align: center;">Take a look below on our new services coming soon</h5>
+    </div>
+  </div>
+</div><br>
+
+    <!-- ======= About Section ======= -->
+    <section id="services" class="about" >
+      <!-- <img src="assets/img/about.jpg" alt="About Image"> -->
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <div class="image-container">
+              <img src="assets/img/nail2.jpg" class="img-fluid" alt="">
+              <div class="overlay"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center nail" data-aos="fade-up" data-aos-delay="200">
+            <div class="content" style = "background-color: transparent;">
+              <div class = "service" style = "margin-top: -57%; margin-left: 13%;">
+                <div style="display: flex; align-items: center;">
+                  <h6 style=" color: #9D5A4D;font-family: 'Montserrat';"><b>SERVICES</b></h6>
+                  <!-- <h6 style="font-family: 'Montserrat';"><b>ES</b></h6> -->
+                </div>
+                <div style="display: flex; align-items: center;">
+                  <h1 style="font-size: 44px; color: #9D5A4D;font-family: 'Montserrat';"><b>Nails Treatment</b></h1>
+                  <!-- <h1 style="font-size: 44px;font-family: 'Montserrat';"><b></b></h1> -->
+                </div>
+              </div><br>
+              <!-- <hr style="border-top: 1px solid black; margin-left: 9%;"><br> -->
+              <!-- <h6>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h6><br> -->
+              <p style="margin-left: 13%; font-size: 20px;">
+                Experience the epitome of organic luxury with our nail polish services at Ruju Mehta Beauty Studio. Our meticulously curated collection of organic polishes will enhance your natural beauty, allowing you to express yourself authentically while showcasing your innate elegance with pride.
+              </p>
+              <div class="swiper mySwiper">
+                <!-- <div class="swiper-wrapper"> -->
+                  <!-- <div class="swiper-slide">
+                    <div class="slide-content">
+                      <h1>Classic Light Set</h1>
+                      <h2><b>CA $20 Deposit</b></h2>
+                      <h5>Total CA $85</h5>
+                      <h5>Duration: 1 hr.</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-content">
+                      <h1>Classic Full Set</h1>
+                      <h2><b>CA $20 Deposit</b></h2>
+                      <h5>Total CA $129</h5>
+                      <h5>Duration: 1hr. 30mins.</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-content">
+                      <h1>Volume Full Set</h1>
+                      <h2><b>CA $20 Deposit</b></h2>
+                      <h5>Total CA $185</h5>
+                      <h5>Duration: 2hr.</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div> -->
+              </div>
+              
+              <br><br>
+              <!-- <h1 style = "color: #9D5A4D;">Coming Soon</h1> -->
+              <!-- <div class="text-center text-lg-start">
+                <a style='float:none;' id='Setmore_button_iframe' href='https://booking.setmore.com/scheduleappointment/b14c3705-6028-4a4c-943a-f62b0e49c2aa'>
+                  <button id ="nail_book" type = 'submit' style="background-color: #9D5A4D; border: none; color: #F6F1EE; padding: 10px; border-radius: 7px;">
+                  <i class="fa-regular fa-calendar-check"></i>&nbsp; BOOK NOW</button>
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><br><br><!-- End About Section -->
+
+
+
+
+       
+
+    <!-- ======= Values Section ======= -->
+    <hr style="border-top: 1px solid black;">
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+        <div class="" data-aos="fade-up" data-aos-delay="400" style="color: #9D5A4D;">
+          <h1 style="text-align: center; margin-right: 4%; margin-top: 8%; font-size: 49px;font-family: 'Montserrat';"><b>Affordable, Gorgeous And Beauty</b></h1>
+          <h1 style="text-align: center; margin-right: 4%;font-family: 'Montserrat';"><b>Which You Deserve Of Our Service</b></h1>
+
+          <div>
+            <img src="assets/img/spa1.PNG" class="img-fluid" alt="" data-aos="fade-left" data-aos-duration="1000" style = "margin-left: -8%;
+            margin-top: -16%;
+            height: 300px;">
+          </div>
+
+
+          <div><img src="assets/img/spa2.PNG" class="img-fluid" alt="" data-aos="fade-bottom" data-aos-duration="1100" style = "margin-left: 32%;
+            height: 400px;"></div>
+
+          <div><img src="assets/img/spa3.PNG" class="img-fluid" alt="" data-aos="fade-right" data-aos-duration="1200" style = " margin-left: 82%; margin-top: -87%;
+            height: 300px;"></div>
+
+          <div><img src="assets/img/spa5.jpg" class="img-fluid" alt="" data-aos="fade-bottom" data-aos-duration="1300"style = "margin-left: -8%;
+            margin-top: -35%; width: 35%;
+            height: 300px;"></div>
+
+          <div><img src="assets/img/spa6.jpg" class="img-fluid" alt="" data-aos="fade-right" data-aos-duration="1400"
+          style = " margin-left: 77%; margin-top: -36%;
+            height: 300px;"></div>
+          
+
+          <!-- <img src="assets/img/spa2.PNG" class="img-fluid" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"> -->
+          <!-- <div class="image-container2"> -->
+            
+            <!-- <img src="assets/img/spa2.PNG" class="img-fluid" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"> -->
+            <!-- <img src="assets/img/spa3.PNG" class="img-fluid" alt="" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"> -->
+          <!-- </div> -->
+        </div>
+      </div>
+      
+
+    </section><!-- End Values Section -->
+
+   
+
+    <!-- ======= Contact Section ======= -->
+    <hr style="border-top: 1px solid black;">
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2 style="font-family: 'Montserrat'; color: #000; font-size:20px;">Still Have Any Question ?</h2>
+          <p style = "font-family: 'Montserrat'; color: #000; font-size:31px;">CONTACT US</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4" style = "margin-top: -9%;">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p style="font-size: large;">Mississauga<br>Brampton</p>
+                </div>
+              </div>
+              <!-- <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                </div>
+              </div> -->
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com<br>contact@example.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday to Saturday: 9:00 AM - 6:00 PM</p>
+                  <p>Please note that our availability may vary. We recommend checking our schedule for the most up-to-date information on appointment slots and availability.<br> Thank you!"</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form id="my-form" enctype="multipart/form-data" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" id = "name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" id= "email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" id = "subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" id= "message" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center display">
+
+                  <div class="text-center"><input type="submit" style="border-color: #9D5A4D; box-shadow: none;color: white;
+                    background-color: #9D5A4D;" name="submit" class="btn-get-started-service" value="Send Message"></div>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>FlexStart</span>
+            </a>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright 2023 <strong><span></span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        Designed by <a href="#">Ruju Mehta Beauty Studio</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var swiper1 = new Swiper(".mySwiper1", {
+        effect: "cube",
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.54,
+        },
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+
+
+      var swiper2 = new Swiper(".mySwiper2", {
+        effect: "cube",
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.54,
+        },
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination2",
+        },
+      });
+   
+  });
+
+    (function(){
+  emailjs.init("Po2MsSTFunWphku-_");
+
+  document.getElementById('my-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  var emailParams = {
+    from_name: document.getElementById('name').value,
+    from_email: document.getElementById('email').value,
+    from_subject: document.getElementById('subject').value,
+    from_message: document.getElementById('message').value,
+  };
+
+  console.log(emailParams);
+
+  emailjs.send("service_vu83x5a", "template_gmqrjsr", emailParams)
+        .then(function(response) {
+          alert("Your email has been sent!");
+          // reset form after submitting successfully
+          document.getElementById('my-form').reset()
+        }, function(error) {
+          alert("Oops! Something went wrong.\n" + JSON.stringify(error));
+        });
+    });
+})(); 
+
+
+  </script>
+
+
+</body>
+
+</html>
