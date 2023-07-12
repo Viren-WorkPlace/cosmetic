@@ -522,6 +522,18 @@ section  {
   text-align: right;
 }
 
+.nail-service {
+  margin-top: -27%;
+  margin-left: 13%;
+}
+.waiting-text{
+  margin-left: 25%;
+}
+
+.design1{
+  margin-left: -9%;
+}
+
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
@@ -536,6 +548,52 @@ section  {
   }
   .about .eye{
     margin-left: -6rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .row .inner {
+    margin-top: 89%;
+  }
+
+  .want-more-inner {
+    margin-left: -11%;
+  }
+  
+  .nail-service {
+    margin-top: -7%;
+    margin-left: 13%;
+  }
+  
+  .waiting {
+    margin-top: -82%;
+  }
+
+  .waiting-text {
+    margin-left: 10%;
+  }
+
+  .inner-page {
+    height: 4000px;
+  }
+  
+  .inner2 {
+    margin-top: 122%;
+  }
+  
+  .service-card-1,
+  .service-card-2,
+  .service-card-3,
+  .service-card-4,
+  .service-card-5,
+  .refill-card-1,
+  .refill-card-2,
+  .refill-card-3,
+  .refill-card-4 {
+    width: 100%;
+    height: 248px;
+    margin-top: 0;
+    margin-left: 0;
   }
 }
 
@@ -555,7 +613,8 @@ section  {
   }
 }
 
-@media (max-width: 768px) {
+
+@media (min-width: 768px) and (max-width: 1023px) {
   .hero {
     text-align: center;
   }
@@ -572,17 +631,27 @@ section  {
     width: 100%;
     margin-top: -9%;
   }
-  .hero .container{
-    height:707px;
+  
+  .hero .container {
+    height: 707px;
   }
-  .row .d-flex2{
+  
+  .row .d-flex2 {
     margin-top: 26%;
   }
 
-  .row .inner{
-    margin-top: 97%;
+  .row .inner {
+    margin-top: 65%;
+  }
+  
+  .design1 {
+    margin-left: 0%;
   }
 
+  .nail-service {
+    margin-top: 0%;
+    margin-left: 13%;
+  }
 }
 
 /*--------------------------------------------------------------

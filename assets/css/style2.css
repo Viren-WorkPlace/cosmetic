@@ -129,74 +129,354 @@
         margin-left: 58%;
         margin-top: -16.8rem;
     }
-    @media(max-width: 768px)  
+
+    .inner-design1{
+        margin-left: -9%;
+    }
+
+    .inner-design2{
+        margin-left: -43%;
+    }
+
+    .want-more-text{
+        margin-left: 25%;
+    }
+
+    .want-more-main{
+        margin-top: 20%;
+    }
+
+
+    /* For Screen like Iphone 14 pro and similar */
+    @media(max-width: 450px)  
     {
 
         .inner-page{
-            height: 3500px;
+            height: 4000px;
         }
         .inner2{
             margin-top: 122%;
         }
         .service-card-1{
            width: 100%;
-           height: 100%;
+           height: 248px;
            margin-left: 0.1rem;
         }
     
         .service-card-2{
             width: 100%;
-            height: 100%;
+            height: 248px;
             margin-top: 0;
             margin-left: 0;
         }
     
         .service-card-3{
             width: 100%;
-            height: 100%;
+            height: 248px;
             margin-top: 0;
             margin-left: 0;
         }
     
         .service-card-4{
             width: 100%;
-           height: 100%;
+           height: 248px;
            margin-top: 0;
             margin-left: 0;
         }
     
         .service-card-5{
             width: 100%;
-            height: 100%;
+            height: 248px;
             margin-top: 0;
             margin-left: 0;
         }
 
         .refill-card-1 {
             width: 100%;
-            height: 100%;
+            height: 248px;
             margin-top: 0;
             margin-left: 0;
         }
     
         .refill-card-2 {
             width: 100%;
-            height: 100%;
+            height: 248px;
             margin-top: 0;
             margin-left: 0;
         }
     
         .refill-card-3 {
             width: 100%;
-            height: 100%;
+            height: 248px;
             margin-top: 0;
             margin-left: 0;
         }
         .refill-card-4 {
             width: 100%;
-            height: 100%;
+            height: 248px;
             margin-top: 0;
             margin-left: 0;   
         }
+
+        .want-more-inner{
+            margin-left: -11%;
+        }
         
+    }
+
+
+     /* For Screen like Ipad */
+    @media(min-width: 768px) and (max-width: 1023px)
+    {
+        .inner-page{
+            height: 4600px;
+        }
+        .inner2{
+            margin-top: 66%;
+        }
+
+        .inner-design1{
+            margin-left: 0%;
+        }
+
+        .service-card-1{
+           width: 100%;
+           height: 258px;
+           margin-left: 0.1rem;
+        }
+    
+        .service-card-2{
+            width: 100%;
+            height: 258px;
+            margin-top: 0;
+            margin-left: 0;
+        }
+    
+        .service-card-3{
+            width: 100%;
+            height: 258px;
+            margin-top: 0;
+            margin-left: 0;
+        }
+    
+        .service-card-4{
+            width: 100%;
+           height: 258px;
+           margin-top: 0;
+            margin-left: 0;
+        }
+    
+        .service-card-5{
+            width: 100%;
+            height: 258px;
+            margin-top: 0;
+            margin-left: 0;
+        }
+
+        .refill-card-1 {
+            width: 100%;
+            height: 258px;
+            margin-top: 0;
+            margin-left: 0;
+        }
+    
+        .refill-card-2 {
+            width: 100%;
+            height: 258px;
+            margin-top: 0;
+            margin-left: 0;
+        }
+    
+        .refill-card-3 {
+            width: 100%;
+            height: 258px;
+            margin-top: 0;
+            margin-left: 0;
+        }
+        .refill-card-4 {
+            width: 100%;
+            height: 258px;
+            margin-top: 0;
+            margin-left: 0;   
+        }
+
+        .want-more-inner{
+            margin-left: -11%;
+        }
+
+        .deposit {
+            margin-left: -74%;
+            margin-top: -13%;
+        }
+        
+        
+          .book-now {
+            text-align: center;
+            margin-left: auto;
+            margin-top: -14%;
+        }
+
+        .inner-design2{
+            margin-left: 1%;
+        }
+    
+        .want-more-text{
+            margin-left: 0;
+        }
+
+        
+        
+    }
+
+
+    @media(min-width: 1024px) and (max-width: 1366px) 
+    {
+
+        .image-container {
+            position: relative;
+          }
+          .card {
+              margin-bottom: 20px;
+              height: 97%;
+              border-radius: 20px;
+              width: 87%;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+              /* background-color: #E6DAD1; */
+            }
+        
+            .refill-card {
+                margin-bottom: 20px;
+                height: 250px;
+                border-radius: 20px;
+                width: 33%;
+                border: 1px solid black;
+                color: black;
+              }
+            .card-body {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              height: 100%;
+              text-align: center;
+              padding: 13px;
+            }
+          
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* background-color: rgba(0, 0, 0, 0.5); Adjust the color and transparency as needed */
+          }
+          
+          .image-container2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+          }
+          
+          .hero-img {
+            position: relative;
+          }
+          
+          .d-flex2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+          }
+          
+          .box{
+            background-color: #9d5A4d; 
+            border-radius: 5px; 
+            border: 1px solid #9d5A4d; 
+            color: white; 
+            padding: 10px;
+               margin-top: 3%;
+          }
+          .box2{
+            background-color: #9d5A4d; 
+            border-radius: 5px; 
+            border: 1px solid #9d5A4d; 
+            color: white; 
+            padding: 10px;
+             margin-left: 12%;
+              margin-right: 12%;
+          }
+          
+            .deposit {
+              margin-left: -74%;
+            }
+          
+          
+            .book-now {
+              text-align: center;
+              margin-left: auto;
+              margin-top: -21%;
+            }
+        
+            .refill-card-1 {
+                margin-left: 14%;
+            }
+        
+            .refill-card-2 {
+                margin-left: 51%;
+                margin-top: -16.7rem;
+            }
+        
+            .refill-card-3 {
+                margin-left: 14%;
+                margin-top: 6%;
+            }
+            .refill-card-4 {
+                margin-left: 51%;
+                margin-top: -29%;   
+            }
+        
+            button:hover{
+                transform: scale(1.1);
+        
+            }
+        
+            .service-card-1{
+                margin-left: -2%;
+            }
+        
+            .service-card-2{
+                margin-left: 34%;
+                margin-top: -29%;
+            }
+        
+            .service-card-3{
+                margin-left: 70%;
+                margin-top: -61%;
+            }
+        
+            .service-card-4{
+                margin-left: 15%;
+                margin-top: 5%;
+            }
+        
+            .service-card-5{
+                margin-left: 50%;
+                margin-top: -16.8rem;
+            }
+        
+            .inner-design1{
+                margin-left: -9%;
+            }
+        
+            .inner-design2{
+                margin-left: -15%;
+            }
+        
+            .want-more-text{
+                margin-left: 0%;
+            }
+
+            .want-more-main{
+                margin-top: 35%;
+            }
     }
