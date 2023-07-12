@@ -228,6 +228,12 @@
      /* For Screen like Ipad */
     @media(min-width: 768px) and (max-width: 1023px)
     {
+        .breadcrumbs {
+            margin-top: 91px;
+          }
+          .section{
+            max-height:none!important ;
+          }
         .inner-page{
             height: 4600px;
         }
